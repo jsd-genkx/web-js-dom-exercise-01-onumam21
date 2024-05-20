@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const additionalMessage = document.getElementById('additional-message');
 
     buttonElement.addEventListener('click', () => {
-        helloElement.textContent = 'Have Room Have WiFi';
-        buttonElement.textContent = 'Room39!';
+        helloElement.innerHTML = 'Hello JavaScript InnerHTML!';
         additionalMessage.classList.remove('hidden');
     });
 });
